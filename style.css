@@ -1,172 +1,76 @@
-*{
-    padding: 0%;
-    margin: 0%;
-}
-.Navigation{
-    display: block;
-    width: 100%;
-    background-color:rgb(248, 232, 9);
-    position: fixed;
-}
-.contect p{
-    padding:0% 20% 0% 20%;
-    background-color: #00aaaa;
-    color:yellow;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* nav{
-    display:block;
-    background-color: yellow;
-    color: #00aaaa;
-} */
- /* nav{
-    display: block;
-    background-color: #db36a4;
-    color: #f7ff00;
- } */
-  nav{
-    display: block;
-    background-color: #70f858;
-    color:#00aaaa;
-  }
-.logo{
-    height: 60px;
-    width: 60px;
-    display: inline;
-}.HO{
-    display: inline-block;
-    width:58%;
-    
-}.one{
-    display: inline-flex;
-    background-color: rgb(248,243,230);
-    border-radius: 100px;
-    padding: 10px;
-    margin: 10px;
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3fff3; /* Light green background for Ayurveda feel */
+  color: #333;
+  line-height: 1.6;
+  padding: 10px;
 }
-.nav{
-    display: inline;
-    float: right;
+
+/* Header logo area */
+header {
+  background-color: #006400;
+  color: white;
+  padding: 15px 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
- main{
-    background-color: #ffafbd;
-    height: 80%;
-    width: 100%;
-    color:rgb(255,255,0);
-    font-weight: bolder;
-    padding-top: 5%;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+/* Main content */
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
-main p{
-    font-family:Georgia, 'Times New Roman', Times, serif ;
-    font-style: italic;
-    font-size: x-large;
-    font-weight:bold;
+
+/* Section headings */
+h2, h3 {
+  color: #006400;
+  margin-bottom: 10px;
 }
-.fi{
-    text-align: center;
+
+/* Paragraphs */
+p {
+  margin-bottom: 15px;
 }
-.se{
-    display: inline-block;
-    text-align: center;
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 30px;
 }
-button{
-    background-color: rgba(128,0,128,0.5);
-    color: white;
-    display: inline-block;
-    margin-left:43%;
-    height: 50px;
-    border-radius: 50px;
+
+/* Responsive image */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Mobile friendly */
+@media (max-width: 600px) {
+  body {
     padding: 5px;
-    text-decoration: none;
+  }
+
+  header {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+  main {
+    padding: 10px;
+  }
 }
-button a{
-    color: white; 
-}
-.F .S{
-    margin: 0% 0% 0% 0%;
-    padding: 15% 20% 15% 20%;
-    background-color: #f1ef79;
-    color: #f04612;
-    font-size: 25px;
-}
-.NF{
-    background-color:#c9ffbf;
-    padding-left: 2%;
-    padding-top:3%;
-}
-.NS{
-    margin-right: 40%;
-}
-.NF img{
-    float:right;
-} 
-div h1{
-    display: inline-block;
-    color: #ffffff;
-}
-.first{
-    text-align: center;
-    display: block;
-}
-.oldform{
-    width: 30%;
-    height: 30%;
-    background-color: #39ca1f;
-    display: block;
-    border-radius: 6%;
-    margin-left:35%;
-    margin-top: 5%;
-}
-.Newform{
-    padding: 3% 0%;
-    color: #c9ffbf; 
-}
-.Newform #number,#name,#Issue{
-    display: inline-block;
-    width: 100%;
-    height: 30px;
-}
-.Gender{
-    display: inline-block;
-    padding: 0%;
-}
-form button{
-    display: block;
-}
-footer div{
-    background-color: #39ca1f;
-    font-size: 20px;
-    text-align: center;
-}
-.T a{
-    display: inline-block;
-    border: solid 1px #c9ffbf;
-    background-color: #1137e4;
-    color: rgb(21, 221, 188);
-    padding: 2%;
-    border-radius: 100px;
-    margin:50px;
-}
-.F{
-    height: 100vh;
-    background-color: #DFD8CB;
-    color: #1137e4;
-} 
-.C{
-   color:rgb(105, 142, 223);
-   font-size: 25px; 
-}
-.YC{
-    color: rgb(252, 44, 44);
-    font-size: 20px;
-}
-.NewColor{
-    color: green;
-    font-size: 25px;
-}
-.N{
-    text-align: center;
-    height: 5%;
-} 
